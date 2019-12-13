@@ -12,20 +12,10 @@ class Words
       false
     end
   end
+    def word_same(w_1, w_2)
+      if w_1 == w_2
+        true
+      else
+        false
+    end
 end
-
-#   end
-#
-#   # def ana
-#   #
-#   # end
-#
-#   # def word_same(w_1, w_2)
-#   #   if w_1 == w_2
-#   #     true
-#   #   else
-#   #     false
-#   # end
-# end
-# end
-# end
