@@ -13,7 +13,7 @@ An anagram is a word or phrase formed by rearranging the letters of a different 
 An antigram is a variety of anagram, in which the letters of one word are rearranged to create its opposite.
 
 |input|output  |behavior|
-|---------|--|
+|---------|--|---------|
 |   listen      | true | "This is a word!"|
 |   listen      | listen | "This is the same word!"|
 |   listen      | silent | "This is an Anagram!"|
