@@ -35,7 +35,7 @@ An antigram is a variety of anagram, in which the letters of one word are rearra
 
 ##### Terminal:
 
- 1.  Open your terminal (mac users).
+ 1. Open your terminal (mac users).
  2. PC users will need **Git for Windows**, here is the latest version.   **(**2.23.0**) **32-bit**** (https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-32-bit.exe).
  3. Navigate to your desktop in your terminal using `cd desktop`.  If this command does not work please use `cd ~`, which will return you to your user account's home folder.  Once this is complete, repeat the command `cd desktop` followed by `git clone [repository link here]`.  It should look like this: ![enter image description
     here](https://lh3.googleusercontent.com/S4CjnmthQkXNYUYngswooRvBCvOOdt0KjUTjSQOnJT4V1VrKJslfhAdqBHDHCet1mj87WXA4CAg=s1500).
