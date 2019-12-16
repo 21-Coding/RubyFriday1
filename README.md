@@ -15,9 +15,13 @@ An antigram is a variety of anagram, in which the letters of one word are rearra
 |input|output|behavior|
 |---------|--|---------|
 |   listen      | true | "This is a word!"|
+|   nestil      | false | "This is for sure not a word!"|
 |   listen      | listen | "This is the same word!"|
+|   listen      | nestil | "This is not the same word!"|
 |   listen      | silent | "This is an Antigram!"|
+|   listen      | nestil | "This is not an Antigram!"|
 |   listen      | enlist | "This is an Anagram!"|
+|   listen      | nestil | "This is not an Anagram!"|
 
 
 ### Setup/Installation Requirements
