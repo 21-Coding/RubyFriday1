@@ -6,8 +6,8 @@ describe('#Words')do
     test = Words.new()
     expect(test.word_valid("listen")).to(eq(true))
   end
-  it('')do
+  it('should check if the inputted word is not a word')do
     test = Words.new()
-expect(test.word_same("listen")).to(eq("listen"))
+expect(test.word_same("listen")).to(eq("nestil"))
   end
 end

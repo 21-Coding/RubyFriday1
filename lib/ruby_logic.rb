@@ -2,7 +2,8 @@ require 'pry'
 
 class Words
   def initialize
-
+    @word_one = []
+    @word_two = []
   end
 
   def word_valid(input)
@@ -19,4 +20,14 @@ class Words
       false
     end
   end
+  def anagram_checker()
+    if word_one[0] == word_two[0]
+      check words at certain index
+  end
+  def antigram_checker()
+    if word_one[0] == word_two[0]
+      check words at certain index
+  end
+
+
 end
