@@ -30,16 +30,20 @@ class Words
     new_array = []
     array.each do |word_as_string|
       new_array.push(word_as_string)
-    if word_one[0] == word_two[0]
-      check words at certain index
-  end
-  def antigram_checker()
-    new_array = []
-    array.each do |word_as_string|
-      new_array.push(word_as_string)
-    if word_one[0].word_as_string == word_two[0].word_as_string
-      "This is an Antigram!"
-  end
+      if word_one[0] == word_two[0]
+        check words at certain index
+      end
+      def antigram_checker()
+        new_array = []
+        array.each do |word_as_string|
+          new_array.push(word_as_string)
+          if word_one[0].word_as_string == word_two[0].word_as_string
+            "This is an Antigram!"
+          end
 
 
+        end
+      end
+    end
+  end
 end
