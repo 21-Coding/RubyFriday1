@@ -37,7 +37,7 @@ class Words
         new_array = []
         array.each do |word_as_string|
           new_array.push(word_as_string)
-          if word_one[0].word_as_string == word_two[0].word_as_string
+          if word_one[0].to_s == word_two[0].to_s
             "This is an Antigram!"
           end
 
