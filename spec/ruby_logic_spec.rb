@@ -8,30 +8,30 @@ describe('#Words')do
   end
   it('should check if the inputted word is NOT a word')do
     test = Words.new()
-expect(test.word_valid("nestil")).to(eq(false))
+expect(test.word_valid("8")).to(eq(false))
   end
-  it('should check if the inputted word is the same word')do
-    test = Words.new()
-expect(test.word_same("listen")).to(eq("nestil"))
-  end
-  it('should check if the inputted word is NOT the same word')do
-    test = Words.new()
-expect(test.word_same("listen")).to(eq("nestil"))
-  end
-  it('should check if the inputted word is an anagram')do
-    test = Words.new()
-expect(test.anagram_checker("listen")).to(eq("enlist"))
-  end
-  it('should check if the inputted word is NOT an anagram')do
-    test = Words.new()
-expect(test.anagram_checker("listen")).to(eq("nestil"))
-  end
-  it('should check if the inputted word is an antigram')do
-    test = Words.new()
-expect(test.antigram_checker("listen")).to(eq("silent"))
-  end
-  it('should check if the inputted word is NOT an antigram')do
-    test = Words.new()
-expect(test.antigram_checker("listen")).to(eq("nestil"))
-  end
+#   it('should check if the inputted word is the same word')do
+#     test = Words.new()
+# expect(test.word_same("listen")).to(eq("nestil"))
+#   end
+#   it('should check if the inputted word is NOT the same word')do
+#     test = Words.new()
+# expect(test.word_same("listen")).to(eq("nestil"))
+#   end
+#   it('should check if the inputted word is an anagram')do
+#     test = Words.new()
+# expect(test.anagram_checker("listen")).to(eq("enlist"))
+#   end
+#   it('should check if the inputted word is NOT an anagram')do
+#     test = Words.new()
+# expect(test.anagram_checker("listen")).to(eq("nestil"))
+#   end
+#   it('should check if the inputted word is an antigram')do
+#     test = Words.new()
+# expect(test.antigram_checker("listen")).to(eq("silent"))
+#   end
+#   it('should check if the inputted word is NOT an antigram')do
+#     test = Words.new()
+# expect(test.antigram_checker("listen")).to(eq("nestil"))
+#   end
 end
