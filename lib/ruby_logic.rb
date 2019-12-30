@@ -4,12 +4,12 @@ class Words
   def initialize()
 
   end
-  # def word_one=(word_one)
-  #   @word_one = word_one
-  # end
-  # def word_two=(word_two)
-  #   @word_two = word_two
-  # end
+  def word_one=(word_one)
+    @word_one = word_one
+  end
+  def word_two=(word_two)
+    @word_two = word_two
+  end
   def word_valid(input)
     if /[aeiouy]/.match(input)
       true
@@ -24,21 +24,20 @@ class Words
       false
     end
   end
-  # def anagram_checker(array)
-  #   # pseudo
-  #   new_array = []
-  #   array.each do |word_as_string|
-  #     new_array.push(word_as_string)
-  #     if word_one[0] == word_two[0]
-  #       check words at certain index
-  #     end
-  #     def antigram_checker()
-  #       new_array = []
-  #       array.each do |word_as_string|
-  #         new_array.push(word_as_string)
-  #         if word_one[0].to_s == word_two[0].to_s
-  #           "This is an Antigram!"
-  #         end
+  def check_ana(word_one, word_two)
+    @word_one = word_one
+    @word_two = word_two
 
+    puts "word_one: {#{word_one}}"
+    puts "word_two: {#{word_two}}"
+binding.pry
+    _word_one = word_one.chars.sort
+    _word_two = word_two.chars.sort
 
-        end
+    check_ana = _word_one == _word_two
+
+    puts "Are these anagrams? #{check_ana}."
+
+  end
+
+end
