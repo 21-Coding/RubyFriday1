@@ -49,7 +49,7 @@ All request have not been parsed.
 
 ### Support and contact details
 
-If you run into any issues running **Anagrams and Antigrams**, please contact Dominique Youmans at ddyoumans@icloud.com or Johnathan Salfen at jonathan.salfen@gmail.com.
+If you run into any issues running **Anagrams and Antigrams**, please contact Dominique Youmans at ddyoumans@icloud.com.
 
 ### Technologies Used
 
