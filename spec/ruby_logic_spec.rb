@@ -1,29 +1,29 @@
 require('rspec')
 require('ruby_logic')
 
-describe('#Words')do
+describe('#Word')do
   it('should check if the inputted word is a word by scanning for vowels')do
-    test = Words.new()
+    test = Word.new(@word_one, @word_two)
     expect(test.word_valid("listen")).to(eq(true))
   end
   it('should check if the inputted word is NOT a word')do
-    test = Words.new()
+    test = Word.new(@word_one, @word_two)
 expect(test.word_valid("8")).to(eq(false))
   end
 #   it('should check if the inputted word is the same word')do
-#     test = Words.new()
+#     test = Word.new()
 # expect(test.word_same("listen")).to(eq("nestil"))
 #   end
 #   it('should check if the inputted word is NOT the same word')do
-#     test = Words.new()
+#     test = Word.new()
 # expect(test.word_same("listen")).to(eq("nestil"))
 #   end
   it('should check if the inputted word is an anagram')do
-    test = Words.new()
+    test = Word.new(@word_one, @word_two)
 expect(test.check_ana("listen", "enlist")).to(eq(true))
   end
 #   it('should check if the inputted word is NOT an anagram')do
-#     test = Words.new()
+#     test = Word.new()
 # expect(test.anagram_checker("listen")).to(eq("nestil"))
 #   end
 #   it('should check if the inputted word is an antigram')do
