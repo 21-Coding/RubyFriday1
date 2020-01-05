@@ -45,7 +45,7 @@ An antigram is a variety of anagram, in which the letters of one word are rearra
 
 ### Known Bugs
 
-All request have not been parsed.
+Not fully functioning. 
 
 ### Support and contact details
 
