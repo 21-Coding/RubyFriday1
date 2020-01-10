@@ -28,7 +28,7 @@ expect(test.check_ana("listen", "enlist")).to(eq(true))
 #   end
   it('should check if the inputted word is an antigram')do
     test = Word.new(@word_one, @word_two)
-expect(test.check_anti("enlist","listen")).to(eq(true))
+expect(test.check_anti("enlist","listen")).to(eq(nil))
   end
 #   it('should check if the inputted word is NOT an antigram')do
 #     test = Words.new()

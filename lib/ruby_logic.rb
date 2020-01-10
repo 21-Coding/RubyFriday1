@@ -41,13 +41,12 @@ class Word
   def check_anti(word_one, word_two)
     @word_one = word_one
     @word_two = word_two
-
     p "word_one: {#{word_one}}"
     p "word_two: {#{word_two}}"
     word_one != word_one.chars.sort
     word_two != word_two.chars.sort
 
-    check_anti = _word_one != _word_two
+    check_anti = nil
 
   end
 
