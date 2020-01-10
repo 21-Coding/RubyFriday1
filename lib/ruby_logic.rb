@@ -29,12 +29,25 @@ class Word
     @word_one = word_one
     @word_two = word_two
 
-    puts "word_one: {#{word_one}}"
-    puts "word_two: {#{word_two}}"
+    p "word_one: {#{word_one}}"
+    p "word_two: {#{word_two}}"
     _word_one = word_one.chars.sort
     _word_two = word_two.chars.sort
 
     check_ana = _word_one == _word_two
+
+  end
+
+  def check_anti(word_one, word_two)
+    @word_one = word_one
+    @word_two = word_two
+
+    p "word_one: {#{word_one}}"
+    p "word_two: {#{word_two}}"
+    word_one != word_one.chars.sort
+    word_two != word_two.chars.sort
+
+    check_anti = _word_one != _word_two
 
   end
 
